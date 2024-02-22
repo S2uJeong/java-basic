@@ -1,8 +1,7 @@
 package access;
 
 public class Speaker {
-    int vol;  // 외부에서 필드를 직접 update 가능 (지양)
-    // private int vol;
+    private int vol;
 
     Speaker(int vol) {
         this.vol = vol;

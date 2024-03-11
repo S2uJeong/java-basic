@@ -11,7 +11,7 @@ public class CastingMain2 {
          * 상위타입 객체를 생성 후, 다운캐스팅하면 힙메모리에 하위타입의 인스턴스가 생성되지 않았으므로 에러 발생
          */
         Parent parent2 = new Parent();
-        Child child2 = (Child) parent2; // 런타임 오류 - ClassCastException
-        child2.childMethod();  // 실행불가
+        // Child child2 = (Child) parent2; // 런타임 오류 - ClassCastException
+        // child2.childMethod();  // 실행불가
     }
 }

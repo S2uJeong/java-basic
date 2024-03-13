@@ -9,9 +9,14 @@ public class CarMain1 {
         driver.setCar(k3Car);
         driver.drive();
 
-        // 차량 추가
+        // 차량 선택
         Model3Car model3Car = new Model3Car();
         driver.setCar(model3Car);
+        driver.drive();
+
+        // 차량 추가 및 선택 -> driver 코드는 건들이지 않았다.
+        NewCar newCar = new NewCar();
+        driver.setCar(newCar);
         driver.drive();
     }
 }
